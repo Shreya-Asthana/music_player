@@ -1,0 +1,95 @@
+body{
+    margin-left:-8px;
+    margin-right:-8px;
+}
+#hero img{
+    opacity: 20%;
+    width:100%;
+    z-index:-2;
+    padding: 0%;
+}
+#hero{
+    
+    background-color: rgb(69, 46, 97);
+    
+    margin-top: -8px;
+    
+
+}
+#hero iframe{
+    opacity:50%;
+    
+}
+#intro{
+    color:rgb(247, 240, 255);
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-style: italic;
+    z-index:0;
+    position:absolute;
+    top:10%;
+    padding:10%;
+    font-size: 50%;
+    
+}
+
+
+#name{
+    font-family: 'Arial', sans-serif;
+  text-shadow: 0 0 10px #f200ff, 0 0 20px #f200ff, 0 0 30px #f200ff, 0 0 40px #f200ff, 0 0 70px #f200ff, 0 0 80px #f200ff, 0 0 100px #f200ff, 0 0 150px #f200ff;
+}
+#slider_emo {
+    
+    width: 96%;
+    padding:2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(180, 133, 224);
+    
+}
+
+
+#slider_emo img{
+    width:85%;
+    border-radius: 5%;
+    box-shadow:0 0 10px #462b52, 0 0 20px #9000ff ;
+}
+.slide{
+    color:rgb(241, 229, 254);
+    font-style: italic;
+    font-family:sugoe UI;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#slider_emo iframe{
+    opacity: 50%;
+    
+}
+#emo{
+    margin:0;
+    background-color: rgb(233, 220, 252);
+    padding:2%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: #462b52;
+    
+}
+#intro_ira{
+    display: flex;
+    flex-direction: row;
+    width:96%;
+    height:50%;
+    background-color: #d297f7;
+    color:#ebd2fa;
+    padding-left: 4%;
+    font-size: larger;
+}
+#intro_ira img{
+    height:auto;
+    width:20%; 
+}
+
+
